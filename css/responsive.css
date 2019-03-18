@@ -1,0 +1,455 @@
+@media (max-width: 1200px) {
+  .container {
+    padding-left: 50px;
+    padding-right: 50px; }
+
+  .alliance .alliancebg {
+    margin-left: -50px; }
+
+  .alliancesteps {
+    -webkit-clip-path: polygon(calc(50% + -212px) 100%, 100% 100%, 100% 0%, calc(50% + 93px) 0);
+    clip-path: polygon(calc(50% + -212px) 100%, 100% 100%, 100% 0%, calc(50% + 93px) 0); }
+
+  .alliancesteps .content {
+    margin-left: calc(50% + 100px); }
+
+  .dealscontent .oneblock {
+    max-width: 380px; }
+
+  .menu .mcross {
+    margin-left: 50px; }
+
+  .menu ul {
+    margin-left: 50px; } }
+@media (max-width: 992px) {
+  .heroprojects {
+    clip-path: polygon(0% 100%, calc(50% - 160px) 100%, calc(50% + -20px) 0%, 0 calc(0% - 25vw));
+    -webkit-clip-path: polygon(0% 100%, calc(50% - 160px) 100%, calc(50% + -20px) 0%, 0 calc(0% - 25vw)); }
+
+  .headerprojects .container {
+    height: 150px; }
+
+  .projectsdescription .impact {
+    float: left; }
+
+  .keyterms .letsright {
+    float: left; }
+
+  .btnmenuotherpage {
+    display: none; }
+
+  .herobg {
+    display: none; }
+
+  .hero {
+    clip-path: none;
+    -webkit-clip-path: none; }
+
+  .alliance .alliancebg {
+    height: auto; }
+
+  .someofoursponsors .container {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+    .someofoursponsors .container img {
+      margin-bottom: 10px; }
+
+  .alliance .alliancebg {
+    max-width: 676px;
+    padding-bottom: 30px; }
+
+  .alliance .alliancebg h1 {
+    margin-left: 50px;
+    margin-bottom: 20px; }
+
+  .alliance .alliancebg p {
+    margin-left: 50px;
+    margin-top: 20px; }
+
+  .alliancesteps {
+    clip-path: none;
+    margin: 0;
+    margin-top: 0;
+    position: relative; }
+
+  .alliance {
+    height: auto; }
+    .alliance .container {
+      height: auto; }
+
+  .alliancesteps .content {
+    margin: auto;
+    width: auto;
+    height: auto;
+    position: relative;
+    float: none;
+    padding-left: 50px;
+    max-width: 676px;
+    padding-bottom: 30px;
+    background: #fff;
+    padding-top: 20px;
+    padding-right: 60px;
+    margin: 0; }
+
+  .alliancesteps {
+    background: transparent;
+    height: auto;
+    margin: auto;
+    max-width: 750px;
+    border-left: 1px solid #C4CCD1;
+    padding: 0;
+    margin-top: -74px;
+    z-index: 3; }
+
+  .arrowbg {
+    display: none; }
+
+  .LatestDeals .oneblock {
+    margin-right: 5px; }
+
+  .register .content .cont {
+    margin: auto;
+    float: none;
+    padding: 0; }
+
+  .register .container {
+    padding-top: 25px;
+    padding-bottom: 75px; }
+
+  .filtersoptions .options .one {
+    width: 100%;
+    display: flex;
+    position: relative; }
+
+  .filtersoptions .th2line {
+    float: left; }
+
+  .dealscontent .oneblock {
+    max-width: 300px; }
+
+  .dealscontent .oneblock .contentblock h2 {
+    font-size: 23px; }
+
+  .dealscontent .oneblock .contentblock p {
+    font-size: 15px;
+    line-height: 26px; }
+
+  .dealscontent .oneblock .contentblock {
+    min-height: 215px; }
+
+  .dealscontent .oneblock .contno .halfway h3 {
+    font-size: 17px; }
+
+  .dealscontent .oneblock .contno .halfway h4 {
+    font-size: 16px; } }
+@media (max-width: 775px) {
+  .keyterms .letsright {
+    float: none;
+    margin: auto; }
+
+  .linefilter {
+    display: none; }
+
+  .searchline .col-md-12 {
+    border-bottom: 1px solid #E4EAED;
+    border-top: 1px solid #E4EAED; }
+
+  .dealscontent .oneblock {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px; }
+
+  .searchline input {
+    max-width: 100px; }
+
+  .hero h1 {
+    line-height: 44px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px; }
+
+  .hero p {
+    margin: auto;
+    text-align: center; }
+
+  .hero .btns {
+    text-align: center; }
+    .hero .btns a {
+      margin-right: 10px;
+      margin-left: 10px; }
+
+  .hero .container {
+    min-height: auto; }
+
+  .hero {
+    min-height: auto;
+    height: auto;
+    padding-bottom: 30px; }
+
+  .someofoursponsors h2 {
+    text-align: center; }
+
+  .someofoursponsors .container img {
+    margin-left: auto;
+    margin-right: auto; }
+
+  .container {
+    border: 0 !important; }
+
+  .alliance .alliancebg {
+    margin: auto; }
+
+  .alliance .alliancebg h1, .LatestDeals h1, .becomeimp .content h1, .register .content .cont h1, .projectsdescription h1, .keyterms h1 {
+    line-height: 44px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px; }
+
+  .alliance .alliancebg .greenline {
+    display: none; }
+
+  .alliance .alliancebg p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .alliancesteps .content {
+    float: none;
+    margin: auto;
+    max-width: 646px; }
+
+  .alliancesteps {
+    border: 0; }
+
+  .alliancesteps .content h1 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px; }
+
+  .alliancesteps .content p, .projectsdescription p {
+    text-align: center;
+    font-size: 18px; }
+
+  .alliance .container {
+    padding: 0;
+    margin: auto;
+    max-width: 646px; }
+
+  .alliance {
+    padding: 0; }
+
+  .alliancesteps .content .no {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #17CBB2;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: -33px; }
+
+  .LatestDeals .oneblock {
+    margin: auto;
+    float: none;
+    display: block;
+    margin-bottom: 20px; }
+
+  .LatestDeals .carousel-indicators {
+    float: none;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px; }
+
+  .LatestDeals .btn {
+    margin: auto;
+    float: none;
+    display: table; }
+
+  .LatestDeals .container {
+    padding-bottom: 35px; }
+
+  .becomeimp {
+    padding-top: 35px;
+    padding-bottom: 35px; }
+
+  .becomeimp .content p {
+    text-align: center; }
+
+  .footer .footercont img {
+    display: block;
+    margin: auto; }
+  .footer .footercont p {
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 10px; }
+  .footer .footercont .backtotop {
+    margin: auto;
+    float: none;
+    border: 0; }
+
+  .alliance .alliancebg p {
+    padding: 0; }
+
+  .keyterms p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .keyterms h2 {
+    text-align: center; }
+
+  .projectsdescription .impact {
+    float: none;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .projectsdescription .impact .icons {
+    text-align: center; }
+
+  .projectsdescription .icons img {
+    margin: auto;
+    float: none;
+    display: inline-block; }
+
+  .projectsdescription p, .projectsdescription .description {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    float: none;
+    font-size: 14px; }
+
+  .projectsdescription h2 {
+    text-align: center; }
+
+  .projectsdescription h1, .keyterms h1 {
+    font-size: 34px; }
+
+  .heroprojectscontent .floatright {
+    max-width: 440px;
+    float: none;
+    position: relative;
+    text-align: center;
+    margin: auto; }
+
+  .heroprojects {
+    clip-path: unset;
+    -webkit-clip-path: unset;
+    height: 450px;
+    width: 100%;
+    position: relative;
+    padding: 0; }
+    .heroprojects .container {
+      height: 450px;
+      background: rgba(255, 255, 255, 0.92); }
+
+  .heroprojectscontent {
+    margin-top: -430px; }
+
+  .heroprojectscontent .floatright .halfwey {
+    max-width: calc(50% - 15px);
+    width: 100%;
+    float: left;
+    margin-right: 7.5px !important;
+    margin-left: 7.5px !important; }
+
+  .keyterms .halfwey {
+    margin-right: auto;
+    margin-left: auto;
+    float: none; }
+
+  .keyterms .bgofthat {
+    max-width: 150px; }
+
+  .heroprojectscontent .floatright .watchvideobtn {
+    position: relative;
+    margin: auto;
+    float: none;
+    text-align: center;
+    left: 0;
+    right: 0; }
+
+  .heroprojectscontent .floatright h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #14191E;
+    margin-bottom: 25px;
+    line-height: 12px;
+    margin-top: 7px; }
+
+  .heroprojectscontent .floatright {
+    max-width: 310px; }
+
+  .heroprojectscontent .floatright .halfwey .btn {
+    color: #fff;
+    background: #17CBB2; } }
+@media (max-width: 600px) {
+  .heroprojectscontent .floatright .halfwey .btn {
+    font-size: 13px; }
+
+  .hero h1, .alliance .alliancebg h1, .LatestDeals h1, .becomeimp .content h1, .register .content .cont h1 {
+    line-height: normal;
+    font-size: 30px; }
+
+  .hero p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px; }
+
+  .alliance .alliancebg p, .alliancesteps .content p, .becomeimp .content p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px; }
+
+  .register .content .cont form input {
+    font-size: 19px;
+    line-height: 22px; }
+
+  .hero .btns a {
+    margin-top: 20px; }
+
+  .LatestDeals .container, .hero .container, .becomeimp .container, .footer .container, .register .container, .container {
+    padding-left: 0;
+    padding-right: 0; }
+
+  .alliance .alliancebg {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .LatestDeals .oneblock .contentblock h2 {
+    font-size: 21px; }
+
+  .LatestDeals .oneblock .contno .halfway h3 {
+    font-size: 18px; }
+
+  .LatestDeals .oneblock .contno .halfway h4 {
+    font-size: 15px; }
+
+  .becomeimp .content .paragraph {
+    border: 0;
+    padding: 0; }
+
+  .header .logo {
+    margin-top: -36px; }
+
+  .alliancesteps .content {
+    padding: 20px;
+    padding-top: 20px; }
+
+  .alliancesteps .content .secone {
+    margin-top: 57px; }
+
+  .filtersoptions .pclass p {
+    font-size: 10px; }
+
+  .heroprojects .container {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+/*# sourceMappingURL=responsive.css.map */
