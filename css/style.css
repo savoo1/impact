@@ -127,8 +127,10 @@ body {
   background: #ffffff;
   position: relative;
   height: 800px;
-  clip-path: polygon(0% 100%, calc(100% - 530px) 100%, calc(100% - 200px) 0%, 0 calc(0% - 25vw));
   -webkit-clip-path: polygon(0% 100%, calc(100% - 530px) 100%, calc(100% - 200px) 0%, 0 calc(0% - 25vw));
+  clip-path: polygon(0% 100%, calc(100% - 530px) 100%, calc(100% - 200px) 0%, 0 calc(0% - 25vw));
+  -moz-clip-path: polygon(0% 100%, calc(100% - 530px) 100%, calc(100% - 200px) 0%, 0 calc(0% - 25vw));
+  -ms-clip-path: polygon(0% 100%, calc(100% - 530px) 100%, calc(100% - 200px) 0%, 0 calc(0% - 25vw));
   /* change the calc height to a percentage height to get alternate responsive behavior*/ }
   .hero .container {
     min-height: 800px; }
