@@ -175,13 +175,12 @@ body{
 	right: 0;
 }
 .hero{
-	background: black;
+	background: $whitecolor;
 	position: relative;
 	height: 800px;
 	-webkit-clip-path:polygon(0% 100%, calc(100% - 530px) 100%, calc(100% - 200px) 0%, 0 calc(0% - 25vw));
 	clip-path: polygon(0% 100%, calc(100% - 530px) 100%, calc(100% - 200px) 0%, 0 calc(0% - 25vw));
-	  -moz-clip-path: polygon(0% 100%, calc(100% - 530px) 100%, calc(100% - 200px) 0%, 0 calc(0% - 25vw));
-	  -ms-clip-path: polygon(0% 100%, calc(100% - 530px) 100%, calc(100% - 200px) 0%, 0 calc(0% - 25vw));
+	clip: polygon(0% 100%, calc(100% - 530px) 100%, calc(100% - 200px) 0%, 0 calc(0% - 25vw));
 	/* change the calc height to a percentage height to get alternate responsive behavior*/
 	.container{
 		min-height: 800px;
