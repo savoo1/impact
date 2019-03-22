@@ -144,6 +144,12 @@
   .dealscontent .oneblock .contno .halfway h4 {
     font-size: 16px; } }
 @media (max-width: 775px) {
+  .projectsdescription .impact {
+    max-width: 235px; }
+
+  .LatestDeals .slider {
+    margin-left: 0; }
+
   .keyterms .letsright {
     float: none;
     margin: auto; }

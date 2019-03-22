@@ -103,6 +103,12 @@ $( window ).resize(function() {
 	  $(".header .menuhumburger").css("opacity", 1);
 	});
 
+
+	var menuwidthifopened = $( ".menu" ).width();
+
+	if(menuwidthifopened > 20){
+		$(".menu").css("width", widthformenu);
+	}
 	// var heightovideomodal2 = $( ".videomodalheight" ).height();
 	// var heightofwindow2 = $( window ).height();
 

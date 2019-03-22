@@ -120,7 +120,7 @@ body{
 				font-weight: 400;
 				font-size: 20px;
 				line-height: 56px;
-				color: rgba(228, 234, 237, 0.6);
+				color: #fff;
 
 				display: block;
 
@@ -131,8 +131,12 @@ body{
 				        transition: all .15s ease;
 			}
 			a:hover{
-				color: #fff;
-				border-color: #fff;
+				color: #17CBB2;
+				border-color: #17CBB2;
+			}
+			.unactive{
+				color: #737B82;
+				pointer-events: none;
 			}
 			.activelink{
 				color: #17CBB2;
@@ -140,6 +144,7 @@ body{
 			.activelink:hover{
 				color: #17CBB2;
 			}
+
 			.btnmenu{
 				font-family: 'Lato', sans-serif;
 				font-weight: 600;
@@ -151,6 +156,10 @@ body{
 				margin-top: 33px;
 				display: inline-block;
 				text-transform: uppercase;
+			}
+			.btnmenu:hover{
+				color: #fff;
+				border-color: #fff;
 			}
 		}
 		li:last-child{
@@ -169,8 +178,8 @@ body{
 	background: $whitecolor;
 	position: relative;
 	height: 800px;
-	clip-path: polygon(0% 100%, calc(100% - 530px) 100%, calc(100% - 200px) 0%, 0 calc(0% - 25vw));
 	-webkit-clip-path:polygon(0% 100%, calc(100% - 530px) 100%, calc(100% - 200px) 0%, 0 calc(0% - 25vw));
+	clip-path: polygon(0% 100%, calc(100% - 530px) 100%, calc(100% - 200px) 0%, 0 calc(0% - 25vw));
 	/* change the calc height to a percentage height to get alternate responsive behavior*/
 	.container{
 		min-height: 800px;
@@ -200,12 +209,13 @@ body{
 	}
 	a{
 		font-family: 'Lato', sans-serif;
-		font-weight: 400;
-		font-size: 20px;
+		font-weight: 600;
+		font-size: 14px;
 		line-height: 56px;
 		color: #17CBB2;
 		margin-right: 25px;
 		margin-top: 50px;
+		text-transform: uppercase;
 
 		img{
 			margin-right: 10px;
@@ -432,8 +442,12 @@ body{
 		max-width: 780px;
 		margin: auto;
 	}
+	.carousel-inner>.item{
+		padding: 10px;
+	}
 	.slider{
-		max-width: 660px;
+		max-width: 680px;
+		margin-left: -10px;
 	}
 	.carousel-indicators .active{
 		display: inline-block;
@@ -481,6 +495,14 @@ body{
 		min-height: 572px;
 		display: inline-table;
 		margin-right: 15px;
+
+		-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+		-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+		box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+
+		img{
+			max-width: 309px;
+		}
 
 		.contentblock{
 			padding-left: 28px;
@@ -537,6 +559,9 @@ body{
 					line-height: 28px;
 					color: #14191E;
 					margin: 0;
+				}
+				.h3spv{
+					font-size: 14px;
 				}
 				p{
 					font-family: 'Lato', sans-serif;
@@ -673,15 +698,45 @@ body{
 				}
 				input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 				  color: #000000;
+
+				  -webkit-transition: all .20s ease;
+				     -moz-transition: all .20s ease;
+				      -ms-transition: all .20s ease;
+				       -o-transition: all .20s ease;
+				          transition: all .20s ease;
 				  opacity: 1; /* Firefox */
 				}
 
 				input:-ms-input-placeholder { /* Internet Explorer 10-11 */
 				  color: #000000;
+
+				  -webkit-transition: all .20s ease;
+				     -moz-transition: all .20s ease;
+				      -ms-transition: all .20s ease;
+				       -o-transition: all .20s ease;
+				          transition: all .20s ease;
 				}
 
 				input::-ms-input-placeholder { /* Microsoft Edge */
 				  color: #000000;
+
+				  -webkit-transition: all .20s ease;
+				     -moz-transition: all .20s ease;
+				      -ms-transition: all .20s ease;
+				       -o-transition: all .20s ease;
+				          transition: all .20s ease;
+				}
+				input:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+				  color: #e7eef1;
+				  opacity: 1; /* Firefox */
+				}
+
+				input:focus:-ms-input-placeholder { /* Internet Explorer 10-11 */
+				  color: #e7eef1;
+				}
+
+				input:focus::-ms-input-placeholder { /* Microsoft Edge */
+				  color: #e7eef1;
 				}
 
 				button{
@@ -951,6 +1006,7 @@ body{
 					color: #14191E;
 					margin: 0;
 				}
+
 				h4{
 					font-family: 'Lato', sans-serif;
 					font-weight: 400;
